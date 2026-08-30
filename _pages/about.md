@@ -103,8 +103,9 @@ Buqiang Xu*, **Yijun Chen\***, Jizhan Fang, Ruobin Zhong, Yunzhi Yao, Yuqi Zhu, 
 
 # 🔧Projects
 
-- `arXiv 2026` [MobileMem: Learning from a Year of Mobile Experiences](https://github.com/zjunlp/MobileMem). Github Stars: [![](https://img.shields.io/github/stars/zjunlp/MobileMem)](https://github.com/zjunlp/MobileMem) 🌟
 - `arXiv 2026` [LightMem-Ego: Your AI Memory for Everyday Life](https://github.com/zjunlp/LightMem-Ego). Github Stars: [![](https://img.shields.io/github/stars/zjunlp/LightMem-Ego)](https://github.com/zjunlp/LightMem-Ego) 🌟
+- `arXiv 2026` [MobileMem: Learning from a Year of Mobile Experiences](https://github.com/zjunlp/MobileMem). Github Stars: [![](https://img.shields.io/github/stars/zjunlp/MobileMem)](https://github.com/zjunlp/MobileMem) 🌟
+- `EMNLP 2026` [OceanGym: A Benchmark Environment for Underwater Embodied Agents](https://github.com/OceanGPT/OceanGym). Github Stars: [![](https://img.shields.io/github/stars/OceanGPT/OceanGym)](https://github.com/OceanGPT/OceanGym) 🌟
 - ``ICLR 2026`` [LightMem: Lightweight and Efficient Memory-Augmented Generation](https://github.com/zjunlp/LightMem). Github Stars: [![](https://img.shields.io/github/stars/zjunlp/LightMem)](https://github.com/zjunlp/LightMem) 🌟
 
 # 🎖 Honors and Awards
