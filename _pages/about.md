@@ -17,11 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a PhD student in [ZJUNLP](https://zjunlp.github.io/) group from Zhejiang University, advised by Prof. [Huajun Chen](https://person.zju.edu.cn/en/huajun) and Prof. [Ningyu Zhang](https://person.zju.edu.cn/en/ningyu). Now, my research interests focus on Streaming Video LLMs, Multimodal Agents, and their applications. I'm always open to any kinds of collaborations. Feel free to reach out if you are interested in my research.
+I am a PhD student in [ZJUNLP](https://zjunlp.github.io/) at Zhejiang University, advised by Prof. [Huajun Chen](https://person.zju.edu.cn/en/huajun) and Prof. [Ningyu Zhang](https://person.zju.edu.cn/en/ningyu). During my undergraduate studies, I was fortunate to work with and learn from Prof. [Pei Lv](https://www7.zzu.edu.cn/csai/info/1207/3294.htm), Prof. [Chaochao Li](https://www7.zzu.edu.cn/csai/info/1232/1879.htm), Prof. [Xiaoheng Jiang](https://www7.zzu.edu.cn/csai/info/1232/3608.htm), Prof. [Xiaofei Nan](https://www7.zzu.edu.cn/csai/info/1234/3325.htm), and Prof. [Hongying Zan](https://www7.zzu.edu.cn/csai/info/1234/3326.htm).
 
-📌 My long-term goal is to build the **visual intelligence of embodied agents**. I work on **streaming video understanding**, enabling models to continuously perceive and reason over potentially infinite visual streams under bounded memory, compute, and latency. Ultimately, I aim to develop agents that can maintain a compact, evolving understanding of the world and truly **think while watching**.
+My research focuses on **Streaming Video LLMs** and **Multimodal Agents**, particularly on long-horizon perception, memory, and reasoning.
 
-✨ Always happy to chat about Streaming Video LLMs, Multimodal Agents, Embodied Intelligence, and long-horizon memory and reasoning.
+📌 My long-term goal is to build **visual intelligence for embodied agents**. I am interested in enabling models to continuously perceive and reason over potentially unbounded visual streams under bounded memory, compute, and latency. A central question in my research is how an agent can maintain a compact, evolving understanding of its visual experience and use it for effective online reasoning. Ultimately, I hope to develop agents that can truly **think while watching**.
+
+✨ I am always happy to discuss Streaming Video LLMs, Multimodal Agents, Embodied Intelligence, and long-horizon memory and reasoning. I am also open to collaborations — feel free to reach out!
 
 
 # 🔥 News
