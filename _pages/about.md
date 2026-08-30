@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a PhD student in [ZJUNLP](https://zjunlp.github.io/) at Zhejiang University, advised by Prof. [Huajun Chen](https://person.zju.edu.cn/en/huajun) and Prof. [Ningyu Zhang](https://person.zju.edu.cn/en/ningyu). During my undergraduate studies, I was fortunate to work with and learn from Prof. [Pei Lv](https://www7.zzu.edu.cn/csai/info/1207/3294.htm), Prof. [Chaochao Li](https://www7.zzu.edu.cn/csai/info/1232/1879.htm), Prof. [Xiaoheng Jiang](https://www7.zzu.edu.cn/csai/info/1232/3608.htm), Prof. [Xiaofei Nan](https://www7.zzu.edu.cn/csai/info/1234/3325.htm), and Prof. [Hongying Zan](https://www7.zzu.edu.cn/csai/info/1234/3326.htm).
+I am a PhD student at the [College of Computer Science and Technology](https://www.en.cs.zju.edu.cn/), Zhejiang University, and a member of [ZJUNLP](https://zjunlp.github.io/), advised by Prof. [Huajun Chen](https://person.zju.edu.cn/en/huajun) and Prof. [Ningyu Zhang](https://person.zju.edu.cn/en/ningyu). Before joining Zhejiang University, I studied Computer Science and Technology at the [School of Computer Science and Artificial Intelligence](https://www7.zzu.edu.cn/csai/index.htm), Zhengzhou University. During my undergraduate studies, I was fortunate to work with and learn from Prof. [Pei Lv](https://www7.zzu.edu.cn/csai/info/1207/3294.htm), Prof. [Chaochao Li](https://www7.zzu.edu.cn/csai/info/1232/1879.htm), Prof. [Xiaoheng Jiang](https://www7.zzu.edu.cn/csai/info/1232/3608.htm), Prof. [Xiaofei Nan](https://www7.zzu.edu.cn/csai/info/1234/3325.htm), and Prof. [Hongying Zan](https://www7.zzu.edu.cn/csai/info/1234/3326.htm).
 
 My research focuses on **Streaming Video LLMs** and **Multimodal Agents**, particularly on long-horizon perception, memory, and reasoning.
 
@@ -111,11 +111,11 @@ Buqiang Xu*, **Yijun Chen\***, Jizhan Fang, Ruobin Zhong, Yunzhi Yao, Yuqi Zhu, 
 
 - *2023.12* National Scholarship for Undergraduate Students (本科生国家奖学金). 
 
-# 📖 Educations
-- *2026.09 - 2031.06*, PhD Student, Zhejiang University.
-- *2022.09 - 2026.06*, Undergraduate Student, Zhengzhou University.
+# 📖 Education
+- **2026.09 - Present**, Ph.D. in Computer Science and Technology, Zhejiang University.
+- **2022.09 - 2026.06**, B.Eng. in Computer Science and Technology, Zhengzhou University.
 
-# 💻 Internships
+# 💻 Internship
 - *2026.07 - 2027.07,* Ant Group, China.
 
 # ✍️ Academic Service
