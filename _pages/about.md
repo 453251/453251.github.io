@@ -123,6 +123,5 @@ Buqiang Xu*, **Yijun Chen\***, Jizhan Fang, Ruobin Zhong, Yunzhi Yao, Yuqi Zhu, 
 
 
 <div class="visitor-map-widget" style="max-width: 500px; margin: 2em auto 0; text-align: center;">
-  <!-- Replace the project id in this URL with one generated for 453251.github.io. -->
-  <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=U9TQMukwgZftGCmTJBP_T_8FM1tItv-vLM9AEfzXb4c"></script>
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=TEuJJPWz_Cz4ctozAYTXa87I-Y7bkSy9InIFf549T9Y&cl=ffffff&w=a"></script>
 </div>
