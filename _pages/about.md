@@ -27,7 +27,7 @@ My research focuses on **Streaming Video LLMs** and **Multimodal Agents**, parti
 
 
 # 🔥 News
-- *2026.11:* &nbsp;🎉🎉 [LightMem-Ego](https://github.com/zjunlp/LightMem-Ego) has been accepted to the AAAI 2027 Demo Track!
+- *2026.11:* &nbsp;🎉🎉 One Paper has been accepted by AAAI 2027 Demo!
 - *2026.08:* &nbsp;🎉🎉 Two papers have been accepted by EMNLP 2026. See you in Budapest, Hungary!
 - *2026.04*: &nbsp;🎉🎉 One paper has been accepted by ACL 2026.
 
@@ -66,7 +66,7 @@ Xinle Deng, Yida Xue, Xiangyuan Ru, **Yijun Chen**, Buqiang Xu, Mingjun Mao, Xin
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/lightmemego.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2027</div><img src='images/lightmemego.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -104,7 +104,7 @@ Buqiang Xu*, **Yijun Chen\***, Jizhan Fang, Ruobin Zhong, Yunzhi Yao, Yuqi Zhu, 
 
 # 🔧Projects
 
-- `arXiv 2026` [LightMem-Ego: Your AI Memory for Everyday Life](https://github.com/zjunlp/LightMem-Ego). Github Stars: [![](https://img.shields.io/github/stars/zjunlp/LightMem-Ego)](https://github.com/zjunlp/LightMem-Ego) 🌟
+- `AAAI 2027` [LightMem-Ego: Your AI Memory for Everyday Life](https://github.com/zjunlp/LightMem-Ego). Github Stars: [![](https://img.shields.io/github/stars/zjunlp/LightMem-Ego)](https://github.com/zjunlp/LightMem-Ego) 🌟
 - `arXiv 2026` [MobileMem: Learning from a Year of Mobile Experiences](https://github.com/zjunlp/MobileMem). Github Stars: [![](https://img.shields.io/github/stars/zjunlp/MobileMem)](https://github.com/zjunlp/MobileMem) 🌟
 - `EMNLP 2026` [OceanGym: A Benchmark Environment for Underwater Embodied Agents](https://github.com/OceanGPT/OceanGym). Github Stars: [![](https://img.shields.io/github/stars/OceanGPT/OceanGym)](https://github.com/OceanGPT/OceanGym) 🌟
 - ``ICLR 2026`` [LightMem: Lightweight and Efficient Memory-Augmented Generation](https://github.com/zjunlp/LightMem). Github Stars: [![](https://img.shields.io/github/stars/zjunlp/LightMem)](https://github.com/zjunlp/LightMem) 🌟
