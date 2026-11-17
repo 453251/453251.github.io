@@ -27,6 +27,7 @@ My research focuses on **Streaming Video LLMs** and **Multimodal Agents**, parti
 
 
 # 🔥 News
+- *2026.11:* &nbsp;🎉🎉 [LightMem-Ego](https://github.com/zjunlp/LightMem-Ego) has been accepted to the AAAI 2027 Demo Track!
 - *2026.08:* &nbsp;🎉🎉 Two papers have been accepted by EMNLP 2026. See you in Budapest, Hungary!
 - *2026.04*: &nbsp;🎉🎉 One paper has been accepted by ACL 2026.
 
