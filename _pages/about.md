@@ -120,7 +120,7 @@ Buqiang Xu*, **Yijun Chen\***, Jizhan Fang, Ruobin Zhong, Yunzhi Yao, Yuqi Zhu, 
 - **2022.09 - 2026.06**, B.Eng. in Computer Science and Technology, Zhengzhou University.
 
 # 💻 Internship
-- *2026.07 - 2027.07,* Bailing Large Model Department, Ant Group, China.
+- *2026.07 - 2027.07,* [Ant Ling](https://www.ant-ling.com/en) Team, Ant Group, China.
 
 # ✍️ Academic Service
 - Conference Reviewer: NLPCC, ACML, AACL-IJCNLP.
