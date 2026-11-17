@@ -29,7 +29,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        <li>{% include author-contact.html kind="email" label="Email" icon="fas fa-envelope" value=author.email group="desktop" %}</li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -41,12 +41,7 @@
         <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
       {% endif %}
       {% if author.WeChat %}
-        <li>
-          <details class="author__wechat">
-            <summary><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat</summary>
-            <span class="author__wechat-id">{{ author.WeChat | escape }}</span>
-          </details>
-        </li>
+        <li>{% include author-contact.html kind="wechat" label="WeChat" icon="fab fa-weixin" value=author.WeChat group="desktop" %}</li>
       {% endif %}
       {% if author.facebook %}
         <li><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
@@ -132,7 +127,7 @@
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.email %}
-        <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+        {% include author-contact.html kind="email" label="Email" icon="fas fa-envelope" value=author.email group="mobile" %}
       {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
@@ -144,10 +139,7 @@
         <a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.WeChat %}
-        <details class="author__wechat">
-          <summary><i class="fab fa-fw fa-weixin" aria-hidden="true"></i><span class="sr-only">WeChat</span></summary>
-          <span class="author__wechat-id">{{ author.WeChat | escape }}</span>
-        </details>
+        {% include author-contact.html kind="wechat" label="WeChat" icon="fab fa-weixin" value=author.WeChat group="mobile" %}
       {% endif %}
       {% if author.facebook %}
         <a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i></a>

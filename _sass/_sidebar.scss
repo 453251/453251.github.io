@@ -253,46 +253,163 @@
   }
 }
 
-.author__wechat {
+.author__contact {
+  --contact-color: #397bdb;
   display: inline-block;
+  vertical-align: baseline;
+
+  &.author__wechat {
+    --contact-color: #239c7e;
+  }
 
   summary {
     cursor: pointer;
     list-style: none;
+    border-radius: 5px;
+    transition: color 180ms ease, background 180ms ease;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--contact-color);
+      background: rgba(65, 123, 200, 0.06);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--contact-color);
+      outline-offset: 3px;
+    }
 
     &::-webkit-details-marker {
       display: none;
     }
   }
 
-  .author__wechat-id {
-    display: block;
+  &[open] > summary {
+    color: var(--contact-color);
+  }
+
+  .author__contact-panel {
     position: absolute;
+    top: 100%;
     right: 0;
-    padding: 0.5em;
-    border: 1px solid $border-color;
-    border-radius: $border-radius;
-    background: #fff;
+    z-index: 20;
+    width: max-content;
+    max-width: calc(100vw - 32px);
+    margin-top: 8px;
+    padding: 12px 14px;
+    overflow: hidden;
+    isolation: isolate;
+    border: 1px solid rgba(97, 146, 205, 0.24);
+    border-radius: 12px;
+    background: linear-gradient(135deg, #fff 20%, #f0f6fd);
+    box-shadow: 0 10px 28px rgba(41, 73, 115, 0.12), 0 1px 3px rgba(41, 73, 115, 0.06);
     color: $text-color;
-    font-size: 14px;
-    white-space: nowrap;
-    user-select: text;
+    font-size: 13px;
+    line-height: 1.6;
+    white-space: normal;
+    transform-origin: top right;
+    cursor: text;
 
     @include breakpoint($large) {
-      position: static;
-      white-space: normal;
-      overflow-wrap: anywhere;
+      position: relative;
+      top: auto;
+      width: 100%;
+      max-width: 100%;
+      margin: 5px 0 10px;
+      padding: 11px 12px;
+      transform-origin: top left;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: -50% -30%;
+      z-index: -1;
+      background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.95) 50%, transparent 70%);
+      pointer-events: none;
+    }
+  }
+
+  .author__contact-value {
+    position: relative;
+    z-index: 1;
+    overflow-wrap: anywhere;
+    user-select: text;
+  }
+
+  .author__contact-particles {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+
+    span {
+      position: absolute;
+      left: calc(5% + var(--i) * 9%);
+      top: 85%;
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      background: var(--contact-color);
+      box-shadow: 0 0 7px var(--contact-color);
+      opacity: 0;
+
+      &:nth-child(even) {
+        top: 60%;
+        width: 2px;
+        height: 2px;
+      }
+    }
+  }
+
+  &[open] {
+    .author__contact-panel {
+      animation: contact-reveal 460ms cubic-bezier(0.16, 1, 0.3, 1) both;
+
+      &::after {
+        animation: contact-shimmer 900ms ease-out both;
+      }
+    }
+
+    .author__contact-particles span {
+      animation: contact-particle 1000ms ease-out both;
+      animation-delay: calc(var(--i) * 28ms);
     }
   }
 }
 
-.author__urls .author__wechat {
+.author__urls .author__contact {
   display: block;
   margin-bottom: 5px;
 
   summary {
     padding: 2px 5px 2px 0;
     font-size: $type-size-5;
+  }
+}
+
+@keyframes contact-reveal {
+  from { opacity: 0; transform: translateY(-5px) scale(0.96); filter: blur(3px); }
+  to { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+}
+
+@keyframes contact-shimmer {
+  from { transform: translateX(-80%); opacity: 0; }
+  25% { opacity: 1; }
+  to { transform: translateX(80%); opacity: 0; }
+}
+
+@keyframes contact-particle {
+  from { opacity: 0; transform: translate(0, 8px) scale(0.5); }
+  20% { opacity: 0.75; }
+  to { opacity: 0; transform: translate(12px, -38px) scale(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .author__contact {
+    summary { transition: none; }
+    &[open] .author__contact-panel { animation: none; }
+    .author__contact-panel::after,
+    .author__contact-particles { display: none; }
   }
 }
 

@@ -1,0 +1,12 @@
+<details class="author__contact author__{{ include.kind }}" name="author-contact-{{ include.group }}">
+  <summary>
+    <i class="{{ include.icon }} fa-fw" aria-hidden="true"></i>
+    <span{% if include.group == 'mobile' %} class="sr-only"{% endif %}>{{ include.label }}</span>
+  </summary>
+  <div class="author__contact-panel">
+    <span class="author__contact-particles" aria-hidden="true">
+      {% for particle in (0..9) %}<span style="--i: {{ particle }}"></span>{% endfor %}
+    </span>
+    <span class="author__contact-value">{{ include.value | escape }}</span>
+  </div>
+</details>
