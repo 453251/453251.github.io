@@ -253,6 +253,49 @@
   }
 }
 
+.author__wechat {
+  display: inline-block;
+
+  summary {
+    cursor: pointer;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+
+  .author__wechat-id {
+    display: block;
+    position: absolute;
+    right: 0;
+    padding: 0.5em;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    background: #fff;
+    color: $text-color;
+    font-size: 14px;
+    white-space: nowrap;
+    user-select: text;
+
+    @include breakpoint($large) {
+      position: static;
+      white-space: normal;
+      overflow-wrap: anywhere;
+    }
+  }
+}
+
+.author__urls .author__wechat {
+  display: block;
+  margin-bottom: 5px;
+
+  summary {
+    padding: 2px 5px 2px 0;
+    font-size: $type-size-5;
+  }
+}
+
 .author__urls_sm{
   padding: .25em;
   font-size: 1.75em;
